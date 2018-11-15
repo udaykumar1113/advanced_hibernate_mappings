@@ -15,6 +15,6 @@
         <property name="connection.pool_size">50</property>
         <property name="current_session_context_class">thread</property>
         <property name="connection.autocommit">true</property>
-        <mapping class="com.uday.association.unionetomany.entities.Account"/>
+        <mapping class="com.uday.compoundkey.entities.Currency"/>
     </session-factory>
 </hibernate-configuration>
