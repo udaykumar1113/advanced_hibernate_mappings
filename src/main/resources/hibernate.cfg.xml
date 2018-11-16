@@ -17,5 +17,6 @@
         <property name="connection.autocommit">true</property>
         <mapping class="com.uday.compositejoincolumn.entites.Currency"/>
         <mapping class="com.uday.compositejoincolumn.entites.Market"/>
+        <mapping class="com.uday.enumeration.entites.Account"/>
     </session-factory>
 </hibernate-configuration>
