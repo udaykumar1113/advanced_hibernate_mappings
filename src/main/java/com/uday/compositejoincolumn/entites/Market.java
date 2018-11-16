@@ -13,7 +13,7 @@ public class Market {
     @Column(name="MARKET_NAME")
     private String marketName;
 
-    @ManyToOne
+    @ManyToOne(cascade = CascadeType.ALL)
     @JoinColumns({
             @JoinColumn(name = "CURRENCY_NAME", referencedColumnName = "CURRENCY_NAME"),
             @JoinColumn(name = "COUNTRY_NAME", referencedColumnName = "COUNTRY_NAME")
