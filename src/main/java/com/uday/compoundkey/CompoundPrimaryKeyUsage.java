@@ -13,6 +13,7 @@ public class CompoundPrimaryKeyUsage {
         SessionFactory sessionFactory= ConnectionFactory.getSessionFactory();
         Session session_1=sessionFactory.openSession();
         Transaction transaction=session_1.beginTransaction();
+
         Currency currency=new Currency();
         currency.setCountryName("USA");
         currency.setName("DOLLAR");
