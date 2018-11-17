@@ -22,7 +22,6 @@ public class Account {
     public int getAccountId() {
         return accountId;
     }
-
     public void setAccountId(int accountId) {
         this.accountId = accountId;
     }
