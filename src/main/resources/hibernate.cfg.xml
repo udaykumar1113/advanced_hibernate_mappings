@@ -18,5 +18,8 @@
         <mapping class="com.uday.compositejoincolumn.entites.Currency"/>
         <mapping class="com.uday.compositejoincolumn.entites.Market"/>
         <mapping class="com.uday.enumeration.entites.Account"/>
+        <mapping class="com.uday.enumeration.entites.Account"/>
+        <mapping class="com.uday.mappedsuperclass.entites.Bond"/>
+        <mapping class="com.uday.mappedsuperclass.entites.Stock"/>
     </session-factory>
 </hibernate-configuration>
